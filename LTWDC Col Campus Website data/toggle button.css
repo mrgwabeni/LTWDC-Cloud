@@ -1,0 +1,37 @@
+
+.button:hover{
+	background: #ea1d63;
+	width: 150px;
+}
+.block {
+	display: block;
+	width: 18%;
+	border: none;
+	background-color:#00BFFF;
+	padding: 20px 40px;
+	font-size: 16px;
+	cursor: pointer;
+	text-align: center;
+	font-family: 'lato',Sans-serif;
+	color:#FFFFFF;
+
+}
+.responsive {
+	width: 100%;
+	height:auto;
+}
+.toggle.active:before{
+
+{
+	content: '\f00d';
+}
+@media (max-width: 767px){
+	.navigation 
+	{
+		left: -60px;
+}
+.navigation.active
+{
+	left:0px;
+	width: 100%;
+}
